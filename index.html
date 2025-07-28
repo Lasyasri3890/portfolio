@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lasya's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #111;
+      color: #eaeaea;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #1a1a1a;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    nav ul li a {
+      color: #eaeaea;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #00bcd4;
+    }
+
+    section {
+      padding: 80px 10%;
+      min-height: 100vh;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      border-bottom: 2px solid #00bcd4;
+      display: inline-block;
+    }
+
+    .projects, .gallery, .academic, .contact {
+      background-color: #1e1e1e;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      border-radius: 12px;
+    }
+
+    .project, .gallery-item, .achievement {
+      margin-bottom: 1.5rem;
+    }
+
+    footer {
+      background: #121212;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    a {
+      color: #00bcd4;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Lasyasri</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#academic">Academics</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="home">
+    <h1>Hello, I'm Lasyasri Pabbisetty</h1>
+    <p>A passionate developer, designer, student & creator. I blend logic with creativity to build impactful digital experiences.</p>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Development Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Movie Recommender</h3>
+        <p>A Streamlit-based app that suggests personalized movies using machine learning and content-based filtering.</p>
+        <a href="https://github.com/Lasyasri3890/movie-recommender" target="_blank">GitHub</a>
+      </div>
+      
+      <div class="project">
+        <h3>Fashion Color Matcher</h3>
+        <p>AI-powered tool that suggests matching clothing color combinations based on uploaded images.</p>
+        <a href="https://github.com/Lasyasri3890/fashion-color-matcher" target="_blank">GitHub</a>
+      </div>
+      
+      <div class="project">
+        <h3>Chromatic Reimagery – Image Colorizer</h3>
+        <p>Deep learning-based portal that automatically colorizes grayscale images using a skip-connected autoencoder.</p>
+        <a href="https://github.com/Lasyasri3890/image-colorizer" target="_blank">GitHub</a>
+      </div>
+      
+    </div>
+  </section>
+  
+
+  <section id="academic">
+    <h2 class="section-title">Academic & Achievements</h2>
+    <div class="academic">
+      <div class="achievement">
+        <h3>Highlights</h3>
+        <ul>
+          <li>Consistently maintained a GPA of 8.5+ across all semesters.</li>
+          <li>Secured 93% in Class 12 (CBSE/State Board).</li>
+          <li>Attended a hands-on Machine Learning workshop at IIT Madras.</li>
+          <li>Gained practical exposure to AI/ML through real-world case studies.</li>
+          <li>Demonstrated strong academic and technical consistency throughout B.Tech.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact">
+      <p>Email: <a href="mailto:lasyasri.pabbisetty2023@vitstudent.ac.in">lasyasri.pabbisetty2023@vitstudent.ac.in</a></p>
+      <p>GitHub: <a href="https://github.com/Lasyasri3890" target="_blank">Lasyasri3890</a></p>
+      <p>LinkedIn <a href="https://www.linkedin.com/in/lasyasri-pabbisetty-a56754346/">Lasyasri Pabbisetty</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Lasya. All rights reserved.
+  </footer>
+</body>
+</html>
